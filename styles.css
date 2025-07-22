@@ -8,10 +8,7 @@ body {
   margin: 0;
   background-color: #eee9e9;
   color: white;
-  background-image: url('/img/fondo-abstracto.jpg'); /* Cambia esto por el nombre de tu archivo de imagen */
-  background-size: cover; /* La imagen cubrirá toda el área de la pantalla */
-  background-position: center; /* Centra la imagen */
-  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  background: content-box radial-gradient(#1b0de9, rgba(122, 122, 137, 0.874)); /* Cambia esto por el nombre de tu archivo de imagen */
 }
 
 .container {

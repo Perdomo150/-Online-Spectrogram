@@ -101,12 +101,12 @@ function toggleMicrophone() {
     if (isStreaming) {
         stream.getTracks().forEach(track => track.stop());
         isStreaming = false;
-        buttonIcon.src = '/img/play.png'; // Cambia al ícono de micrófono desactivado
+        buttonIcon.src = '/icon/play.png'; // Cambia al ícono de micrófono desactivado
         buttonIcon.alt = 'Activar Micrófono';
     } else {
         setupAudio().then(() => {
             isStreaming = true;
-            buttonIcon.src = '/img/microphone-off.webp'; // Cambia al ícono de micrófono activado
+            buttonIcon.src = '/icon/microphone-off.webp'; // Cambia al ícono de micrófono activado
             buttonIcon.alt = 'Desactivar Micrófono';
             startSpectrogram();
         });
