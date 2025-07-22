@@ -101,7 +101,7 @@ function toggleMicrophone() {
     if (isStreaming) {
         stream.getTracks().forEach(track => track.stop());
         isStreaming = false;
-        buttonIcon.src = '/icon/play.png'; // Cambia al ícono de micrófono desactivado
+        buttonIcon.src = '/icon/play.png'; // icono de microfo play
         buttonIcon.alt = 'Activar Micrófono';
     } else {
         setupAudio().then(() => {

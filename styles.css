@@ -11,7 +11,7 @@ body {
   color: white;
 
   /* Fondo central - Multicolor*/
-  background: linear-gradient(132deg, #000000,#00ff00, #0000ff,#b4e600,#ff0000,#ffffff);
+  background: linear-gradient(132deg, #0a0a0a,#87e846, #cf64d9fe,#eabd34,#ea4c4c,#ffffff);
   background-size: 400% 400%;
   animation: BackgroundGradient 15s ease infinite;
 }
@@ -41,7 +41,7 @@ body {
 /*Modifica el color y distancioa del cirulo con respecto a los iconos */
 .header h1 {
   margin: 0;
-  text-shadow: 2px 2px 5px rgb(27, 2, 250); /* Sombra en el texto */
+  text-shadow: 2px 2px 5px rgb(0, 0, 0); /* Sombra en el texto */
   font-size: 2em; /* Ajusta el tamaño del texto según sea necesario */
   margin-right: 20px;
   color: #fcf8f8;
@@ -55,15 +55,15 @@ body {
   margin-right: 10px;
   border-radius: 150px;
   padding: 5px;
-  background-color: #ffffff;
-  border: none;
+  background-color: #edecec;
+  border-color: #050505;
   cursor: pointer;
 }
 
 /*Modifica el color de los iconos cuando se coloca en cima el cursor*/
 .buttont:hover {
   transform: scale(1.2);
-  background-color: #6b96ebb8;
+  background-color: #ebedf0c4;
 }
 
 /*Moifica el tamaño de los iconos*/
@@ -130,10 +130,12 @@ canvas {
   top: 50%;
   transform: translate(-50%, -50%);
   padding: 20px;
-  border: 1px solid #888;
+  border: 5px solid #888;
+  border-radius: 5%;
   width: 50%;
   max-height: 70vh;
-  overflow-y: auto;
+  overflow-y:auto;
+  scrollbar-width: none;
 }
 
 /* Modifica el color de los títulos dentro del recuadro del modal */
