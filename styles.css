@@ -44,7 +44,7 @@ body {
   text-shadow: 2px 2px 5px rgb(0, 0, 0); /* Sombra en el texto */
   font-size: 2em; /* Ajusta el tamaño del texto según sea necesario */
   margin-right: 20px;
-  color: #fcf8f8;
+  color: #ede5e5;
   margin-bottom: 1px; /* Espacio inferior */
 }
 
@@ -119,12 +119,12 @@ canvas {
   top: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(12, 12, 12, 0.4);
+  background-color: rgba(236, 233, 233, 0.541);
 }
 
 /*Modifica todo el contenido que se encuentre dentro del recuadro del modal */
 .modal-content {
-  background-color: #0f0f0f;
+  background-color: #e7e1e1;
   position: absolute;
   left: 50%;
   top: 50%;
@@ -138,18 +138,26 @@ canvas {
   scrollbar-width: none;
 }
 
+
 /* Modifica el color de los títulos dentro del recuadro del modal */
 .modal-content h2,
-.modal-content h3 {
-  color: #f1f1f1; /* Color del texto */
-  text-shadow: 2px 2px 5px rgb(47, 2, 250); /* Sombra en el texto */
+.modal-content h3  {
+  color: #050505; /* Color del texto */
+  text-shadow: 2px 2px 5px rgb(12, 12, 12); /* Sombra en el texto */
   font-size: 1.5em; /* Ajusta el tamaño del texto según sea necesario */
   margin-bottom: 15px; /* Espacio inferior */
 }
 
+/* Modifica el color de los títulos dentro del recuadro del modal */
+.modal-content p,
+.modal-content ul {
+  color: #050505; /* Color del texto */
+  font-size: 1.2em; /* Ajusta el tamaño del texto según sea necesario */
+  margin-bottom: 15px; /* Espacio inferior */
+}
 
 
-/*MOdifca el color y tamñao del indicador de cierre del nodal o ventana */
+/*MOdifca el color y tamñao del indicador de cierre del modal o ventana */
 .close {
   color: #877e7e;
   float: right;
