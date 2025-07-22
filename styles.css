@@ -1,3 +1,4 @@
+/* */
 body {
   font-family: Arial, sans-serif;
   display: flex;
@@ -8,7 +9,17 @@ body {
   margin: 0;
   background-color: #eee9e9;
   color: white;
-  background: content-box radial-gradient(#1b0de9, rgba(122, 122, 137, 0.874)); /* Cambia esto por el nombre de tu archivo de imagen */
+
+  /* Fondo central - Multicolor*/
+  background: linear-gradient(132deg, #000000,#00ff00, #0000ff,#b4e600,#ff0000,#ffffff);
+  background-size: 400% 400%;
+  animation: BackgroundGradient 15s ease infinite;
+}
+
+@keyframes BackgroundGradient {
+  0% {background-position: 0% 50%;}
+  50% {background-position: 100% 50%;}
+  100% {background-position: 0% 50%;}
 }
 
 .container {
@@ -27,7 +38,7 @@ body {
   margin-bottom: 19px;
 }
 
-/*Modifica el color y distancioa del tirulo con respecto a los iconos */
+/*Modifica el color y distancioa del cirulo con respecto a los iconos */
 .header h1 {
   margin: 0;
   text-shadow: 2px 2px 5px rgb(27, 2, 250); /* Sombra en el texto */
